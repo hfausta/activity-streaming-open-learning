@@ -1,0 +1,15 @@
+<module rename-to='StreamED'>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+	<inherits name="de.novanic.eventservice.GWTEventService"/>
+	<inherits name="com.tractionsoftware.gwt.user.UTCDateTime"/>
+	
+	<entry-point class="edu.unsw.streaming.client.StreamED"/>
+	
+	<source path='bean'/>
+	<source path='client'/>
+	<source path='service'/>
+	<source path='dao'/>
+	<source path='server'/>
+ 	<source path='shared'/>
+</module>
